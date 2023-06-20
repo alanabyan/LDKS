@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #ededed;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* margin-top: 40px;
+    margin-right: 114px;
+    margin-left: 114px; */
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #000; */
+}
+
+header img {
+    position: relative;
+    left: -150px;
+    width: 30%;
+}
+
+header .category-market {
+    position: relative;
+    left: -200px;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .category-market .search-box {
+    margin-left: 40px;
+    background-color: #e5e5e5;
+    height: 15px;
+    padding: 7px 15px;
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 30px rgba(0, 0, 0, .2); */
+    transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+header .category-market .search-box input {
+    border: none;
+    outline: none;
+    background: none;
+    transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+header .category-market .search-box input::placeholder {
+    color: #111;
+}
+
+header .category-market .search-box .search-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 5px;
+    right: -20px;
+}
+
+header .category-market ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .category-market ul li  {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+header .category-market ul li a{
+    font-weight: 600;
+    line-height: 27.32px;
+    color:  #394360;
+}
+
+header .category-market ul li a:hover {
+    border-bottom: 2px solid #394360;
+}
+
+header .login {
+    display: flex;
+    align-items: center;
+    /* padding: 8px 15px; */
+}
+
+header .login ul {
+    display: flex;
+}
+
+header .login ul li {
+    margin-left: 30px;
+}
+
+header .login ul li a{
+   color: #394360;
+}
+
+.list h2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.popular-product {
+    border-radius: 12px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    width: 90%;
+    height: 1300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    /* background: #fff; */
+    flex-wrap: wrap; 
+}
+
+.popular-product .card {
+    width: 225px;
+    height: 345px;
+    background: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .5s ease;
+    margin-top: 60px;
+    margin-left: 30px;
+    box-shadow: -3px 10px 54px -6px rgba(0,0,0,0.56);
+}
+
+.popular-product .card-2 {
+    width: 225px;
+    height: 345px;
+    background: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .5s ease;
+    margin-top: -70px;
+    margin-left: 30px;
+    box-shadow: -3px 10px 54px -6px rgba(0,0,0,0.56);
+}
+
+.popular-product .card-3 {
+    width: 225px;
+    height: 345px;
+    background: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .5s ease;
+    margin-top: -40px;
+    margin-left: 30px;
+    box-shadow: -3px 10px 54px -6px rgba(0,0,0,0.56);
+}
+
+.popular-product .card .img-card img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.popular-product .card-2 .img-card img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.popular-product .card-3 .img-card img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.popular-product .card .info-product {
+    background: #fff;
+    padding: 5px 0px 15px 8px;
+}
+
+.popular-product .card-2 .info-product {
+    background: #fff;
+    padding: 5px 0px 15px 8px;
+}
+
+.popular-product .card-3 .info-product {
+    background: #fff;
+    padding: 5px 0px 15px 8px;
+}
+
+.popular-product .card .info-product .name-product {
+    font-size: 12px;
+}
+
+.popular-product .card-2 .info-product .name-product {
+    font-size: 12px;
+}
+
+.popular-product .card-3 .info-product .name-product {
+    font-size: 12px;
+}
+
+.popular-product .card .info-product .price-product {
+    position: relative;
+    top: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.popular-product .card-2 .info-product .price-product {
+    position: relative;
+    top: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.popular-product .card-3 .info-product .price-product {
+    position: relative;
+    top: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.popular-product .card .info-product .price-product p {
+    color: #ee4d2d;
+}
+
+.popular-product .card-2 .info-product .price-product p {
+    color: #ee4d2d;
+}
+
+.popular-product .card-3 .info-product .price-product p {
+    color: #ee4d2d;
+}
+
+.popular-product .card .info-product .price-product ul {
+    margin-right: 5px;
+    color: #394360;
+}
+
+.popular-product .card-2 .info-product .price-product ul {
+    margin-right: 5px;
+    color: #394360;
+}
+
+.popular-product .card-3 .info-product .price-product ul {
+    margin-right: 5px;
+    color: #394360;
+}
+
+.popular-product .card button{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    background: #ee4d2d;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popular-product .card-2 button{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    background: #ee4d2d;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popular-product .card-3 button{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    background: #ee4d2d;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popular-product .card:hover {
+    transform: translateY(-10px)
+}
+
+.popular-product .card-2:hover {
+    transform: translateY(-10px)
+}
+
+.popular-product .card-3:hover {
+    transform: translateY(-10px)
+}
